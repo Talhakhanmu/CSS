@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS</title>
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+   
+      <h1 class="title animate-shake">Hello World</h1>
+
+      <p class="paragraph text-size-large dark">
+        As a coder, I find joy in my work. It's like being an artist, but
+        instead of paint, I use code to create masterpieces. Every new project
+        is a blank canvas, waiting to be transformed. The thrill of coding lies
+        in the challenges it presents. Each line of code is a piece of a complex
+        puzzle. Debugging is like a detective game, testing patience and
+        perseverance. But the triumph when the code finally runs without errors
+        is unparalleled.
+
+        <span class="animate-text-color">I love coding.</span>
+      </p>
+
+      <p class="text-size-small">
+        CSS classes are used to select the HTML elements we want to style.
+        Classes are declared in the HTML element's class attribute. To select an
+        element with a specific class, write a dot (.) character, followed by
+        the class we declare in the HTML element's class attribute.
+      </p>
+
+      <div class="container">
+        <div class="box"><h2>Touch him →</h2></div>
+        <div class="box bg-red transform-width"><h2>Touch me</menu></h2></div>
+        <div class="box"><h2>  ←Touch him </h2></div>
+      </div>
+
+      <div class="container",>
+        <div id="box-1" class="bg-red">
+          <h2>I have the ID box-1 </h2>
+          <p class="text-size-small">
+            CSS Id selectors are used to select the element with a unique id. To
+            select an element with a specific id, write a hash (#) character,
+            followed by the id we declare in the HTML element's id attribute.
+            Ids are stronger than classes. If an element has both an id and a
+            class, the properties of the id will override the properties of the
+            class. CSS Ids should always be unique to prevent conflicts or
+            strange behavior.
+          </p>
+        </div>
+        <div id="box-2">
+          <h2>I have the ID box-2</h2>
+          <p>
+            CSS element selectors are used to select HTML elements based on the
+            element name. To select an element with a specific element name,
+            write the element name. Be careful when using element selectors, as
+            they select all elements of that type. For example, if you use the
+            element selector to select the h2 element, all h2 elements on the
+            page will be selected.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          style="background: linear-gradient(90deg, #36bce5 0%, #4ae95a 100%)"
+          class="box"
+        >
+          <h2>Inline Styles</h2>
+          <p>
+            Inline styles are used to style directly on the HTML element. This
+            has the highest priority, and will override any other styling.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
